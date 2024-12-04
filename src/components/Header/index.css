@@ -1,0 +1,13 @@
+.header {
+  background: #22eeff;
+  color: #ffffff;
+  cursor: default;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+}

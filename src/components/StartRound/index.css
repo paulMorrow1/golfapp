@@ -1,0 +1,31 @@
+p {
+  color: rgb(14, 124, 179);
+}
+
+.main {
+  /* border: 2px solid black; */
+  font-size: larger;
+  text-align: center;
+  padding: 12px;
+  cursor: default;
+}
+
+.hole-select {
+  display: flex;
+  justify-content: center;
+}
+
+.radio-btn:hover {
+  cursor: pointer;
+}
+
+.btn {
+  padding: 5px;
+  border-radius: 7px;
+  background: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: rgb(237, 237, 237);
+}

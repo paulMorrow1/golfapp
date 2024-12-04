@@ -1,0 +1,253 @@
+.scorecard-container {
+  background: #ffffff;
+  color: #000000;
+  margin: auto;
+  width: 20rem;
+  padding: 10px 20px;
+  cursor: default;
+  border: 2px solid;
+}
+
+.hole {
+  text-align: center;
+}
+
+.hole-stats {
+  /* padding: 5px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.hole-stats h3 {
+  margin: auto;
+  padding: 5px;
+}
+
+.score-on-hole {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  align-items: center;
+}
+
+.score-on-hole h3 {
+  margin: 0;
+}
+
+.score-on-hole-value {
+  margin: 0 20px 0 0;
+  padding: 2px;
+  text-align: center;
+}
+
+/* .score-on-hole-value-container {
+  margin: 10px;
+  text-align: left;
+} */
+
+.dropdown-btn {
+  margin-left: 10px;
+  background: #ffffff;
+  color: #22eeff;
+  border: none;
+}
+
+.dropdown-btn:hover {
+  cursor: pointer;
+}
+
+.value-btn {
+  background: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+.value-btn:hover {
+  cursor: pointer;
+}
+
+.value-btn.par-birdie:hover {
+  color: #00bb00;
+}
+
+.value-btn.par-bogey:hover {
+  color: #ff9000;
+}
+
+.value-btn.bogey:hover {
+  color: #ff0000;
+}
+
+.next-hole-btn {
+  margin: 15px 5px;
+}
+
+.next-hole-btn:hover {
+  cursor: pointer;
+}
+
+.finish-round-btn {
+  margin: 15px 5px;
+}
+
+.finish-round-btn:hover {
+  cursor: pointer;
+}
+
+.total-score-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+}
+
+.total-score {
+  margin: 15px 5px;
+  padding: 5px;
+  font-size: 22px;
+}
+
+.fairway {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fairway h3 {
+  margin: 0;
+}
+
+.fairway-btns button {
+  margin: 0 3px;
+  background: #ffffff;
+  border: 1px solid #000000;
+}
+
+.fairway-hit:hover {
+  background: #00bb00b2;
+  cursor: pointer;
+}
+
+.fairway-missed:hover {
+  background: #ff0000b8;
+  cursor: pointer;
+}
+
+.fairway-btns,
+.gir-btns {
+  display: flex;
+}
+
+.custom-radio {
+  display: block;
+  width: 22px;
+  height: 22px;
+  border: 2px solid #000;
+  position: relative;
+  border-radius: 15%;
+}
+
+.custom-radio::after {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  padding-bottom: 2px;
+  width: 15px;
+  height: 15px;
+  font-family: FontAwesome;
+}
+
+.custom-radio + .custom-radio {
+  margin-left: 9px;
+}
+
+.custom-radio input[type="radio"] {
+  display: none;
+}
+
+.custom-radio.checked:has(input[type="radio"][value="true"])::after {
+  color: green;
+  content: "\2713";
+  left: 3px;
+}
+
+.custom-radio.not-checked:has(input[type="radio"][value="false"])::after {
+  color: red;
+  content: "\2715";
+  left: 3px;
+}
+
+.gir {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gir h3 {
+  margin: 0;
+}
+
+.gir-btns button {
+  margin: 0 3px;
+  background: #ffffff;
+  border: 1px solid #000000;
+}
+
+.gir-hit:hover {
+  background: #00bb00b2;
+  cursor: pointer;
+}
+
+.gir-missed:hover {
+  background: #ff0000b8;
+  cursor: pointer;
+}
+
+.svg {
+  margin-top: 4px;
+}
+
+.fairway-btns.check-selected {
+  background: #00bb00b2;
+}
+
+.fairway-btns.x-selected {
+  background: #ff0000b8;
+}
+
+.gir-btns.check-selected {
+  background: #00bb00b2;
+}
+
+.gir-btns.x-selected {
+  background: #ff0000b8;
+}
+
+.putts-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.putts-container h3 {
+  margin: 0;
+}
+
+.putts {
+  margin: 0 20px 0 0;
+  padding: 2px;
+  text-align: center;
+}
+
+.putt-values:hover {
+  cursor: pointer;
+}

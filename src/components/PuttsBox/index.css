@@ -1,0 +1,47 @@
+.putt-values {
+  /* margin: 10px 2.5px 0px 2.5px; */
+  margin: auto 5px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background: #ffffff;
+}
+
+.putt-value-container {
+  height: max-content;
+  width: max-content;
+  margin: 20rem auto;
+  border: 2px solid black;
+  padding: 10px;
+  background: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.putt-value-container p {
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+/* .putt-value-container {
+    height: max-content;
+    width: 200px;
+    margin: 10rem auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    background: white;
+    text-align: center;
+    padding: 10px;
+  } */
+
+/* .score-on-hole-value-container {
+  height: max-content;
+  width: 225px;
+  border: 2px solid black;
+  padding: 10px;
+  background: white;
+  margin: 10rem auto;
+  text-align: left;
+} */
